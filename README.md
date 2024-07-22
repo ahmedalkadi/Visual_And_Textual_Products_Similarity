@@ -2,6 +2,11 @@
 
 This project aims to recommend products based on their similarity by using both textual and visual features. The visual features are extracted using ResNet-50, while the textual features are extracted using TinyBERT-6L. Preprocessing of images is performed by removing backgrounds using a UNet model trained on fashion pictures (clothes, bags, and shoes).
 
+
+![](output5.png)
+![](output7.png)
+
+
 ## Project Overview
 
 In this project, we recommend products based on their similarity. We use cosine similarity to find the similarity between products.
@@ -59,6 +64,11 @@ This function removes the background (anything except for clothes, bags, and sho
 - **kernel**: Sets the kernel size of the morphological operation used to remove noise from the mask. Default is `3`.
 
 Applying the mask to the image will remove the background and keep the object in the image.
+
+![](output8.png)
+![](output9.png)
+
+
 
 ## Usage
 
